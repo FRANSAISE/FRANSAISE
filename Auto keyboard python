@@ -1,0 +1,8 @@
+import keyboard
+import time
+
+touche = input("Choisis t'as touche ruffhax")
+
+while True:
+    keyboard.press_and_release(touche)
+    time.sleep(1)
